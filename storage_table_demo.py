@@ -138,7 +138,7 @@ for item in items:
     print('Year: ' + str(item.year) + '\n')
     print('Price: ' + str(item.price) + '\n')
 
-items = table_service.query_entities('itemstable', filter="PartitionKey eq 'coffeestore'", select='brand,flavor,size,price')
+items = table_service.query_entities('itemstable', filter="PartitionKey eq 'coffeeshop'", select='brand,flavor,size,price')
 for item in items:
     print('Brand: ' + item.brand)
     print('Flavor: ' + item.flavor + '\n')
