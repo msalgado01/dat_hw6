@@ -89,7 +89,8 @@ print('Created entry for Ford Escape...')
 
 car = Entity()
 car.PartitionKey = 'cardealership'
-car.RowKey = 'Chevrolet'
+car.RowKey = '003'
+car.make = 'Chevrolet'
 car.model = 'Corvette Stingray'
 car.year = 2018
 car.price = 55000
